@@ -1,6 +1,6 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
-document.write(width + ' x ' + height);
-if (width <= 800) {
-    window.location.assign("mobile/");
+
+if (width <= 1010) {
+    window.location.assign("mobile/index.html");
 }
